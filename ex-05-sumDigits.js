@@ -11,6 +11,9 @@
  *    sumDigits(406) => 10
  **/
 
+
+
+
 console.group('JS Iterations Week');
   console.log('%cFunction: sumDigits', 'background-color: green; color: white')
   console.groupCollapsed('Should return 6 from "123"');

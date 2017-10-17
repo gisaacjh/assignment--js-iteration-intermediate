@@ -6,6 +6,19 @@
  *
 */
 
+function sumPositives(array) {
+  var onlyPositives = 0
+  for (i = 0; i < array.lenght; i++) {
+    if (array[i] >= 1) {
+      onlyPositives = onlyPositives + array[i]
+    }
+    return onlyPositives
+  }
+}
+
+
+
+
 console.group('JS Iterations Week');
   console.log('%cFunction: sumPositives', 'background-color: green; color: white')
   console.groupCollapsed('Should return 12 in the next [3, -1, 4, 5, -3, -4] series');

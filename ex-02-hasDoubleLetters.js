@@ -4,7 +4,15 @@
  * Write a function called `hasDoubleLetters` that takes a string as
  *
 **/
-
+function hasDoubleLetters(word) {
+  for (var i = 0; i < word.length; i++) {
+    if (word[i] === word[i] + 1) {
+      return true
+    } else {
+      return false
+    }
+  }
+}
 console.group('JS Iterations Week');
   console.log('%cFunction: hasDoubleLetters', 'background-color: green; color: white')
   console.groupCollapsed('Should return true for "shutter"');
